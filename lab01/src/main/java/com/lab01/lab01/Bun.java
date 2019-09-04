@@ -3,13 +3,13 @@ package com.lab01.lab01;
 public class Bun {
     private static final String[] TYPE_BUN = new String[] {
             "icing",
-            "cinnamon",
+            "glace cherry",
             "cream",
-            "hot dog",
-            "ham and egg",
-            "honey",
-            "chocolate",
-            "garlic"
+            "crushed sugar sprinkled ",
+            "saffron",
+            "cinnamon",
+            "nutmeg",
+            "orange-cranberry"
     };
     private int num;
     private String list;

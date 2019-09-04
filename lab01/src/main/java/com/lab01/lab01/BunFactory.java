@@ -7,14 +7,17 @@ public class BunFactory {
                     new Bun(2),
                     new Bun(3)
             }, 20),
-            new BunMenu("Belgian buns", "Belgian buns",new Bun[] {
+            new BunMenu("Bath buns", "Belgian buns",new Bun[] {
                     new Bun(4),
-                    new Bun(5),
-                    new Bun(6)
             }, 25),
-            new BunMenu("Belgian buns", "Belgian buns",new Bun[] {
+            new BunMenu("Saffron buns", "Belgian buns",new Bun[] {
+                    new Bun(5),
+                    new Bun(6),
                     new Bun(7)
             }, 30),
+            new BunMenu("Hot cross bun","usually made with fruit, marked with a cross on the top, and traditionally eaten on Good Friday",new Bun[]{
+                    new Bun(8)
+            }, 35),
     };
     public static BunMenu getBunMenu(int numBun) {
         return BUN_MENUS[numBun];
