@@ -30,10 +30,10 @@ public class Lab01Application {
     BunMenu viewBunMenu(@PathVariable int id){
         return BunFactory.getBunMenu(id);
     }
-    @RequestMapping("/shop/{id}/add")
+    @RequestMapping("/shop/{id}/addOrder")
     String addToCart(@PathVariable int id) {
         CART.add(BunFactory.getBunMenu(id));
-        return String.format("\"%s\" has been added to the cart.", BunFactory.getBunMenu(id).getName());
+        return String.format("\"%s\" add complete", BunFactory.getBunMenu(id).getName());
     }
     @RequestMapping("/cart")
     String viewCart() {
